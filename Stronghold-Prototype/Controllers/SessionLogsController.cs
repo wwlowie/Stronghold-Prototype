@@ -11,11 +11,11 @@ namespace Stronghold_Prototype.Controllers
     {
         [Route]
         [HttpPost]
-        public IHttpActionResult CreateSessionLog([FromBody] SessionLogDTO sessionLogDTO)
+        public IHttpActionResult CreateSessionLog([FromBody] SessionLogDto sessionLogDto)
         {
-            if (sessionLogDTO == null)
+            if (sessionLogDto == null)
                 return BadRequest();
-            return Ok(sessionLogDTO);
+            return Ok(sessionLogDto);
         }
     }
 

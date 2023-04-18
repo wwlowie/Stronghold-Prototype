@@ -2,20 +2,20 @@
 
 namespace Stronghold_Prototype.Controllers
 {
-    public class SessionLogDTO
+    public class SessionLogDto
     {
-        public string topicID;
-        public string sessionDateISO;
-        public string sessionTimeISO;
-        public string durationISO;
-        public string recorderName;
-        public List<string> mentorDiscordUserIds;
-        public List<attendeesGTO> attendees;
+        public string TopicId { get; set; }
+        public string SessionDateIso { get; set; }
+        public string SessionTimeIso { get; set; }
+        public string DurationIso { get; set; }
+        public string RecorderName { get; set; }
+        public List<string> MentorDiscordUserIds { get; set; }
+        public List<AttendeesDto> Attendees { get; set; }
     }
 
-    public class attendeesGTO
+    public class AttendeesDto
     {
-        public string discordUserId;
-        public string attendanceDurationISO;
+        public string DiscordUserId { get; set; }
+        public string AttendanceDurationIso { get; set; }
     }
 }
