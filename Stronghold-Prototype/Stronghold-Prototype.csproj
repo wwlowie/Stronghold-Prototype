@@ -87,7 +87,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HelloController.cs" />
-    <Compile Include="Controllers\SessionLogDTO.cs" />
+    <Compile Include="Controllers\SessionLogDto.cs" />
     <Compile Include="Controllers\SessionLogsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
